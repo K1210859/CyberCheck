@@ -9,7 +9,7 @@
 $sname = "localhost";
 $uname = "root";
 $password = "";
-$db_name = "Social_Media";
+$db_name = "CyberCheck";
 
 $connection = mysqli_connect($sname, $uname, $password, $db_name);
 
