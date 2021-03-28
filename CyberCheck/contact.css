@@ -1,0 +1,91 @@
+.grid {
+  height: 1000px;
+  width: 780px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100px 100px  auto;
+}
+
+
+.a {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  grid-row-start: 1;
+  grid-row-end: span 1;
+  text-align: center;
+  border-width: 2px;
+  background-color: white;
+}
+
+
+.b {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    display: grid;
+    grid-template-rows: 90px auto;
+    grid-template-columns: 50px 1fr;
+}
+
+.SearchBarClass{
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+}
+#SearchBar{
+    width: 500px;
+    height: 60px;
+    font-size: 20px;
+
+}
+#SubmitBttn{
+    width:150px;
+    height: 56px;
+    font-size: 20px;
+}
+.tools{
+    grid-row-start: 2 ;
+    grid-row-end: span 1;
+    grid-column-start: 1;
+    grid-column-end: span 1;
+}
+
+#Addbttn, #Savebttn{
+    height: 50px;
+    width: 50px;
+}
+.PostOfUser{
+    grid-column-start: 2;
+    grid-column-end: span 1;
+    grid-row-start: 2;
+    grid-row-end: span 2;
+    margin: 10px;
+    padding: 10px;
+
+}
+.UserBox {
+    height: 80px;
+}
+.Post{
+    height: 520px;
+}
+.Toolbar{
+    height: 50px;
+}
+.ImageInPost{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#Likebttn{
+    height: 50px;
+    width: 50px;
+}
+#Savebttn{
+    height: 50px;
+    width: 50px;
+}
