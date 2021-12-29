@@ -1,0 +1,35 @@
+<script>
+function myFunction()
+{
+  var num = Math.floor(Math.random()*5);
+  if(num==1)
+  {
+      window.alert("The error is that there is a ... missing semicolon in the code.");
+  }
+  else if(num==2)
+  {
+      window.alert("The error is that there is an ... unexpected token in the code.");
+  }
+  else if(num==3)
+  {
+      window.alert("The error is that there is a ... missing ) in the code.");
+  }
+  else if(num==4)
+  {
+      window.alert("The error is that there is a ... missing variable name in the code.");
+  }
+  else
+  {
+      window.alert("The error is that there is an ... extra curly brace in the code.");
+  }
+}
+</script>
+
+<a href="testing.html">Back to the Testing Page</a> <br><br>
+<br>
+<form>
+  <p>
+    Click the button "Test Code" to test it.
+    </p>
+  <input type="button" id="sbt" value="Test Code" onClick = "myFunction()"/>
+</form>
